@@ -15,11 +15,11 @@ In order to ease your first launch settings, we suggest you to download our data
 - mydata > student003 > %06d.jpg (all the images)
 - mydata > student003 > trajectories.txt (your input file)
 - mydata > student003 > clusters.txt (your GT file, where groups are stored)
-- mydata > student003 > video_par.mat (some video settings)ù
-- mydata > student003.txt (pretrained parameters)ù
-- mydata > student003.mat (this is where the features, previously extracted, are stored)
+- mydata > student003 > video_par.mat (some video settings)
+- mydata > student003.txt (pretrained parameters)
+- mydata > student003.mat (this is where the features, previously extracted, are saved)
 
-If the file 'student003.mat' is missing, the system will just recompute the features and save it for the next time, so it's presence is not mandatory. For the datasets you download from our website, the algorithm has already a pretrained version. To exploit the pretrained version you have to set some parameter in Sec. 2 of the main code. Since each video has it's own parameters, you will also find a file named student003.txt where you can copy/paste its content directly into the main code (from line 20 to 32, i.e. inside the "you can edit here!" part).
+If the file 'student003.mat' is missing, the system will just recompute the features and save it for the next time, so it's presence is not mandatory. For the datasets you download from our website, the algorithm has already a pretrained version. To exploit the pretrained version you have to set some parameter in Sec. 2 of the main code. Since each video has it's own parameters, you will also find a file named 'student003.txt' where you can copy/paste its content directly into the main code (from line 20 to 32, *i.e.* inside the "you can edit here!" part).
 
 If you want to make new experiments on our datasets, you will probably have to recompute the features. Only then you'll be able to change the features employed, the length of the time window the training set size and so on. Of course, if you change the features, you might want to retrain your model as well!
 
