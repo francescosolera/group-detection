@@ -11,7 +11,7 @@ code and datasets
 
 If you download this code you're half way ready to run it yourself! You'll first need to fetch some data as well.
 
-In order to ease your first launch settings, we suggest you to download our datasets from the ImageLab site at University of Modena (http://goo.gl/st1q3C). On these datasets we've already pretrained our model, so you'll just need to extract the zip file and put the content inside the 'mydata' folder. Suppose you've downloaded the datasets 'student003', starting from your main directory you should be able to see the following structure:
+In order to ease your first launch settings, we suggest you to download our datasets from [ImageLab](http://goo.gl/st1q3C) @ University of Modena. On these datasets we've already pretrained our model, so you'll just need to extract the zip file and put the content inside the 'mydata' folder. Suppose you've downloaded the datasets 'student003', starting from your main directory you should be able to see the following structure:
 - mydata > student003 > %06d.jpg (all the images)
 - mydata > student003 > trajectories.txt (your input file)
 - mydata > student003 > clusters.txt (your GT file, where groups are stored)
