@@ -25,6 +25,9 @@ If you want to make new experiments on our datasets, you will probably have to r
 
 Otherwise you can make up your dataset. For the code to run appropriately, you can just mimic the folder structure of one of our datasets. You will need the images, the input and the GT files as well as for the parameter mat file.
 
+####concluding remarks
+You may need to adjust matlab parallel jobs settings in order to run the code - but it will be just a matter of efficiency. Talking about efficiency: sorry the code is not optimized yet! If you find any bugs or need help in running the code, please contact one of the authors. Thank you!
+
 
 citation
 ========
@@ -34,3 +37,7 @@ Solera, F.; Calderara, S.; Cucchiara, R., "Structured learning for detection of 
 Proc. IEEE Int'l Confe. Advanced Video and Signal Based Surveillance (AVSS), pp.7-12, Aug. 2013
 URL: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6636608&isnumber=6636596
 
+####contacts
+- Francesco Solera    francesco.solera@unimore.it
+- Simone Calderara    simone.calderara@unimore.it
+- Rita Cucchiara        rita.cucchiara@unimore.it
