@@ -6,12 +6,12 @@ group-detection
 *Crowds are difficult to analyze, but the events worth to be understood are likely to be limited to the result of a cooperation between members of the same group.
 In this work, we propose a novel algorithm for detecting social groups in crowds by means of a Correlation Clustering procedure on people trajectories. The affinity between crowd members is learned through an online formulation of the Structural SVM framework and a set of specifically designed features characterizing both their physical and social identity, inspired by Proxemic theory, Granger causality, DTW and Heat-maps. To adhere to sociological observations, we introduce a loss function (G-MITRE) able to deal with the complexity of evaluating group detection performances. We show our algorithm achieves state-of-the-art results both in presence of complete trajectories and with tracklets provided by available detector/tracker systems.*
 
-<p align="center">
+<br /><p align="center">
   <img src="http://imagelab.ing.unimore.it/imagelab/immagini/example_group_detection.jpg" />
 </p>
+<br />
 
-code and datasets
-=================
+###code and datasets
 
 If you download this code you're half way ready to run it yourself! You'll first need to fetch some data as well.
 
@@ -29,12 +29,11 @@ If you want to make new experiments on our datasets, you will probably have to r
 
 Otherwise you can make up your dataset. For the code to run appropriately, you can just mimic the folder structure of one of our datasets. You will need the images, the input and the GT files as well as for the parameter mat file.
 
-####concluding remarks
+#####concluding remarks
 You may need to adjust matlab parallel jobs settings in order to run the code - but it will be just a matter of efficiency. Talking about efficiency: sorry the code is not optimized yet! If you find any bugs or need help in running the code, please contact one of the authors. Thank you!
 
 
-citation
-========
+###citation and contacts
 If you use this code, please cite the following article:
 
 ```
@@ -43,7 +42,6 @@ Proc. IEEE Int'l Confe. Advanced Video and Signal Based Surveillance (AVSS), pp.
 URL: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6636608&isnumber=6636596
 ```
 
-####contacts
 - Francesco Solera    francesco.solera@unimore.it
 - Simone Calderara    simone.calderara@unimore.it
 - Rita Cucchiara        rita.cucchiara@unimore.it
