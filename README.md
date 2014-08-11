@@ -33,9 +33,11 @@ citation
 ========
 If you use this code, please cite the following article:
 
+```
 Solera, F.; Calderara, S.; Cucchiara, R., "Structured learning for detection of social groups in crowd"
 Proc. IEEE Int'l Confe. Advanced Video and Signal Based Surveillance (AVSS), pp.7-12, Aug. 2013
 URL: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6636608&isnumber=6636596
+```
 
 ####contacts
 - Francesco Solera    francesco.solera@unimore.it
