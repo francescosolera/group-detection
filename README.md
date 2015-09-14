@@ -37,9 +37,9 @@ You may need to adjust matlab parallel jobs settings in order to run the code - 
 If you use this code, please cite the following article:
 
 ```
-Solera, F.; Calderara, S.; Cucchiara, R., "Structured learning for detection of social groups in crowd"
-Proc. IEEE Int'l Conf. Advanced Video and Signal Based Surveillance (AVSS), pp.7-12, Aug. 2013
-URL: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6636608&isnumber=6636596
+Solera, F.; Calderara, S.; Cucchiara, R., "Socially Constrained Structural Learning for Groups Detection in Crowd"
+IEEE Transactions on Pattern Analysis and Machine Intelligence, Aug. 2015
+DOI: http://dx.doi.org/10.1109/TPAMI.2015.2470658
 ```
 
 - Francesco Solera    francesco.solera@unimore.it
